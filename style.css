@@ -1,0 +1,29 @@
+ .imgContainer > .text {
+  width: 300px;
+  height: 150px;
+  /* border: 1px solid #000; */
+  margin: 2em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+  box-shadow: 0 0 1px #999;
+  
+ }
+ 
+ .imgContainer {
+  position: relative;
+ }
+
+ .imgContainer:hover .text {
+  color: orange;
+  border: transparent;
+  background: #000;
+  transform: rotate(5deg) translate(5px) scale(1.2);
+ }
+
+
+
+
+
+ 
